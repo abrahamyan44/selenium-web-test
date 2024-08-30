@@ -27,7 +27,7 @@ This project uses the following dependencies:
 
    ```bash
    git clone https://github.com/abrahamyan44/selenium-web-test
-   cd main
+   git checkout main
 2. Pull Selenium Hub and Node 
     ```bash
     docker pull selenium/hub

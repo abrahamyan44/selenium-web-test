@@ -91,7 +91,6 @@ public class WebTest {
 
         TimeUnit.SECONDS.sleep(20);
         WebElement popupCloseButton = driver.findElement(By.cssSelector("[data-testid='modal-close-icon']"));
-        System.out.println(popupCloseButton.isDisplayed());
         actions.moveToElement(popupCloseButton).click().perform();
 
         TimeUnit.SECONDS.sleep(15);
